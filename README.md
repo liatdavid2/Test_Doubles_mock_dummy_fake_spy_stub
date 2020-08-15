@@ -15,26 +15,26 @@ There are several definitions of objects, that are not real. The general term is
 
 ## **Mocks vs Stubs = Behavioral testing vs State testing**
 
-Principle
+#### Principle
 According to the principle of Test only one thing per test, there may be several stubs in one test, but generally there is only one mock.
 
-Lifecycle
+#### Lifecycle
 ##### **Test lifecycle with stubs:**
 
-------------
 
 
 
-Setup - Prepare object that is being tested and its stubs collaborators.
-Exercise - Test the functionality.
-Verify state - Use asserts to check object's state.
-Teardown - Clean up resources.
+
+**Setup** - Prepare object that is being tested and its stubs collaborators.
+**Exercise** - Test the functionality.
+**Verify state** - Use asserts to check object's state.
+**Teardown** - Clean up resources.
 
 ##### **Test lifecycle with mocks:**
-------------
-Setup data - Prepare object that is being tested.
-Setup expectations - Prepare expectations in mock that is being used by primary object.
-Exercise - Test the functionality.
-Verify expectations - Verify that correct methods has been invoked in mock.
-Verify state - Use asserts to check object's state.
-Teardown - Clean up resources.
+
+**Setup data** - Prepare object that is being tested.
+**Setup expectations** - Prepare expectations in mock that is being used by primary object.
+**Exercise** - Test the functionality.
+**Verify expectations** - Verify that correct methods has been invoked in mock.
+**Verify state** - Use asserts to check object's state.
+**Teardown** - Clean up resources.
