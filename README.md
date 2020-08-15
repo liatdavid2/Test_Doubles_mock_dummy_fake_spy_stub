@@ -1,4 +1,4 @@
-## Test_Doubles_mock_dummy_fake_spy_stub
+# Test Doubles
 
 There are several definitions of objects, that are not real. The general term is test double. This term encompasses: dummy, fake, stub, mock.
 
